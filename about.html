@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter&family=Jost:wght@100;200;300;400;500;600;700&family=Lato:ital,wght@1,300&family=Poppins:wght@400;600;700&display=swap"
+        rel="stylesheet">
+
+    <!-- box icons -->
+    <link rel="stylesheet" href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css'>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: rgb(0, 0, 33);
+            color: white;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        .about {
+            width: 100%;
+            padding: 78px 0;
+        }
+
+        .about-text {
+            width: 550px;
+        }
+
+        .main {
+            width: 1130px;
+            max-width: 95%;
+            margin: 0 auto;
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+        }
+
+        .about-text h1 {
+            font-size: 80px;
+            text-transform: capitalize;
+            margin-bottom: 7px;
+            color: rgb(170, 107, 228);
+        }
+
+        .about-text h4 {
+            font-size: 25px;
+            text-transform: capitalize;
+            margin-bottom: 5px;
+            letter-spacing: 2px;
+        }
+
+        .about-text p {
+            letter-spacing: 1px;
+            line-height: 28px;
+            font-size: 18px;
+            margin-bottom: 30px;
+        }
+
+        span {
+            color: rgb(212, 91, 91);
+        }
+
+        .social-media a {
+            display: inline-flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 30px;
+            width: 3rem;
+            height: 3rem;
+            background: transparent;
+            border: .2rem solid #754ef9;
+            box-shadow: 0 .2rem .5rem gray;
+            font-size: 1rem;
+            color: #754ef9;
+            margin: 0rem 0rem 2rem 1rem;
+            max-width: 100%;
+            transition: .4s;
+            text-decoration: none;
+        }
+
+        .social-media i {
+            font-size: 20px;
+        }
+
+        .social-media a:hover {
+            color: white;
+        }
+
+        /* Tablet styles */
+        @media screen and (max-width: 768px) {
+            .about {
+                padding: 50px 0;
+            }
+
+            .main {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .about-text {
+                width: 100%;
+                text-align: center;
+                margin-top: 30px;
+            }
+        }
+
+        /* Mobile styles */
+        @media screen and (max-width: 480px) {
+            .about-text h1 {
+                font-size: 40px;
+            }
+
+            .about-text h4 {
+                font-size: 20px;
+            }
+
+            .about-text p {
+                font-size: 16px;
+            }
+
+            .social-media a {
+                width: 2.5rem;
+                height: 2.5rem;
+                font-size: 0.9rem;
+            }
+
+            .main img {
+                width: 80%;
+                max-width: 200px;
+                margin: 0 auto;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <section class="about">
+        <div class="main">
+            <img src="pic.png" height="400px">
+            <div class="about-text">
+                <h1>About Me</h1>
+                <h4>Designer <span>& Developer</span></h4>
+                <p>
+                    I am a web developer and Java Full Stack Developer with a passion
+                    for creating exceptional digital experiences. With a wealth of knowledge in front-end
+                    With my vast experience, dedication, and ability to adapt to the ever-evolving tech landscape,
+                    clients can rest assured that their projects will be in safe hands. Approach me today and unlock the
+                    full potential of your digital presence.
+                </p>
+                <div class="social-media">
+                    <a href="https://www.linkedin.com/in/sagaruppala6/" target="_blank"><i
+                            class='bx bxl-linkedin'></i></a>
+                    <a href="https://github.com/UppalaSagar" target="_blank"><i class='bx bxl-github'></i></a>
+                    <a href="mailto:sagaruppala7@gmail.com" target="_blank"><i class='bx bxl-gmail'></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
